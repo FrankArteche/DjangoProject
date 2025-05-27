@@ -1,0 +1,42 @@
+# Entorno virtual
+env/
+.env/
+.envrc/
+virtualenv/
+
+# Archivos de Python
+*.py[cod]
+__pycache__/
+*.so
+.Python
+
+# Excluir librerías de Python (entorno virtual o global)
+/Lib/
+/Scripts/
+/Include/
+/site-packages/
+
+# Entornos y configuraciones locales
+.env
+.env.local
+.env.dev
+.env.prod
+.env.staging
+.venv/
+
+# Base de datos (SQLite u otros)
+*.sqlite3
+*.db
+*.sql
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de debug
+*.log
+logs/
+
+# Archivos estáticos y medios (p
